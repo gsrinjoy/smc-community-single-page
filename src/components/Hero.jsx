@@ -25,7 +25,7 @@ export default function Hero() {
       </p>
 
       <div className="hero__cta">
-        <CtaButton href={hero.cta.href}>{hero.cta.label}</CtaButton>
+        <CtaButton href={hero.cta.href} variant={hero.cta.variant} location="hero">{hero.cta.label}</CtaButton>
       </div>
 
       <StarRating {...hero.rating} />

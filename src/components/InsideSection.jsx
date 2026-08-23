@@ -21,7 +21,7 @@ export default function InsideSection() {
       </ul>
 
       <div className="inside__cta">
-        <CtaButton href={inside.cta.href} size="sm">
+        <CtaButton href={inside.cta.href} size="sm" variant={inside.cta.variant} location="inside">
           {inside.cta.label}
         </CtaButton>
       </div>

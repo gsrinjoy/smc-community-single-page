@@ -17,7 +17,11 @@ export const hero = {
     { text: 'Free community, zero noise.', bold: true },
     { text: ' 👇' },
   ],
-  cta: { label: 'Join the community', href: 'https://t.me/smcindiaofficial' },
+  cta: {
+    label: 'Join the community',
+    href: 'https://t.me/smcindiaofficial',
+    variant: 'telegram',
+  },
   rating: {
     value: 4.7,
     outOf: 5,
@@ -41,7 +45,11 @@ export const inside = {
     'Post your markup, get it reviewed',
     'A lot more perks…',
   ],
-  cta: { label: 'Join the community', href: 'https://t.me/smcindiaofficial' },
+  cta: {
+    label: 'Join WhatsApp community',
+    href: 'https://chat.whatsapp.com/EPoC9T2wdcAIYzpaiUCba5',
+    variant: 'whatsapp',
+  },
 }
 
 export const disclaimer =

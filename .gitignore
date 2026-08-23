@@ -2,3 +2,6 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# local env overrides (.env is committed — a pixel ID is not a secret)
+.env.local

@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import InsideSection from './components/InsideSection'
 import Disclaimer from './components/Disclaimer'
 import ThemeToggle from './components/ThemeToggle'
+import MetaPixel from './components/MetaPixel'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Disclaimer />
       </main>
       <ThemeToggle />
+      <MetaPixel />
     </>
   )
 }

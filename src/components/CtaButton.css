@@ -6,7 +6,7 @@
   gap: 26px;
   width: 100%;
   padding: 22px 26px;
-  background: var(--accent);
+  background: var(--cta-fill, var(--accent));
   color: var(--accent-ink);
   border: 3px solid var(--shadow);
   border-radius: 14px;
@@ -47,4 +47,13 @@
 
 .cta--sm .cta__label {
   font-size: clamp(18px, 4.5vw, 22px);
+}
+
+/* brand fills — black ink on all three keeps the button language consistent */
+.cta--telegram {
+  --cta-fill: var(--telegram);
+}
+
+.cta--whatsapp {
+  --cta-fill: var(--whatsapp);
 }
