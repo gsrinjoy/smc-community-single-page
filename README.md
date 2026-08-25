@@ -48,7 +48,7 @@ for the real Telegram / Instagram invite links.
 
 ## Meta Pixel
 
-Live. The pixel ID `1383279596465717` is set in `.env`, which is committed —
+Live. The pixel ID `2933082820361063` is set in `.env`, which is committed —
 a pixel ID is a public identifier (it ships in the client bundle regardless),
 so keeping it in the repo means any clone or CI build is configured already.
 
