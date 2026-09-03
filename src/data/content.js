@@ -28,6 +28,11 @@ export const hero = {
     label: '(800+ Traders Trained)',
   },
   strip: 'Covered weekly: Nifty · Bank Nifty · SMC · ICT · Market structure · Liquidity',
+  diagram: {
+    src: '/retail-vs-smc.jpeg',
+    alt:
+      'Retail versus SMC entry compared. Retail buys the trendline with a stop just under it — low reward, high risk because that stop is the liquidity. SMC waits for the equal lows to be swept, then enters from the imbalance for a far higher reward and lower risk.',
+  },
   funFact: {
     label: 'Ohh !! by the way',
     body:
@@ -45,10 +50,11 @@ export const inside = {
     'Post your markup, get it reviewed',
     'A lot more perks…',
   ],
+  ctaKicker: 'Trade like the Banks',
   cta: {
-    label: 'Join WhatsApp community',
-    href: 'https://chat.whatsapp.com/EPoC9T2wdcAIYzpaiUCba5',
-    variant: 'whatsapp',
+    label: 'Join the community',
+    href: 'https://t.me/smcindiaofficial',
+    variant: 'telegram',
   },
 }
 

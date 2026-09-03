@@ -6,7 +6,6 @@ export default function Header() {
     <header className="header">
       <div className="page header__inner">
         <img className="header__logo" src="/smc-logo.png" alt={brand.name} width="755" height="250" />
-        <span className="header__tagline">{brand.tagline}</span>
       </div>
     </header>
   )

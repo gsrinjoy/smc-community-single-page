@@ -31,6 +31,16 @@ export default function Hero() {
       <StarRating {...hero.rating} />
       <MicroStrip>{hero.strip}</MicroStrip>
       <FunFact label={hero.funFact.label}>{hero.funFact.body}</FunFact>
+
+      <figure className="hero__diagram">
+        <img
+          src={hero.diagram.src}
+          alt={hero.diagram.alt}
+          width="1024"
+          height="1225"
+          loading="lazy"
+        />
+      </figure>
     </section>
   )
 }

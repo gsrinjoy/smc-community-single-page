@@ -36,3 +36,18 @@
 .hero__cta {
   margin: 34px 0 22px;
 }
+
+/* The artwork has its own white field, so it gets the same white-plaque
+   treatment as the fun-fact card and stays legible in dark mode. */
+.hero__diagram {
+  margin: 22px 0 0;
+  padding: 14px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.hero__diagram img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

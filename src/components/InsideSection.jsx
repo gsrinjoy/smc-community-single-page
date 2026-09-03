@@ -20,6 +20,8 @@ export default function InsideSection() {
         ))}
       </ul>
 
+      <p className="inside__kicker">{inside.ctaKicker}</p>
+
       <div className="inside__cta">
         <CtaButton href={inside.cta.href} size="sm" variant={inside.cta.variant} location="inside">
           {inside.cta.label}
