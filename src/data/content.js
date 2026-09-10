@@ -34,7 +34,7 @@ export const hero = {
   },
   video: {
     label: 'DONT MISS THIS !!',
-    src: '/video.MP4',
+    src: '/video1.MP4',
     cta: {
       label: 'Join the community',
       href: 'https://t.me/+4exHXedPzJRkZmY9',
