@@ -1,0 +1,32 @@
+.clip {
+  margin-top: 32px;
+}
+
+/* Big display text on the page background — reads white in dark mode and
+   near-black in light mode, so it stays legible either way. */
+.clip__label {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(34px, 9.5vw, 54px);
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--ink);
+}
+
+/* White plaque so the clip sits on its own field in both themes. */
+.clip__frame {
+  margin: 18px 0 0;
+  padding: 14px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.clip__video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  background: #0c0c0c;
+}

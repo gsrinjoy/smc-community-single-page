@@ -2,16 +2,12 @@ import { hero } from '../data/content'
 import CtaButton from './CtaButton'
 import StarRating from './StarRating'
 import MicroStrip from './MicroStrip'
-import FunFact from './FunFact'
+import HeroVideo from './HeroVideo'
 import './Hero.css'
 
 export default function Hero() {
   return (
     <section className="hero page">
-      <span className="hero__emoji" role="img" aria-label="waving hand">
-        {hero.emoji}
-      </span>
-
       <h1 className="hero__headline">
         {hero.headline.map((line) => (
           <span key={line}>{line}</span>
@@ -30,7 +26,19 @@ export default function Hero() {
 
       <StarRating {...hero.rating} />
       <MicroStrip>{hero.strip}</MicroStrip>
-      <FunFact label={hero.funFact.label}>{hero.funFact.body}</FunFact>
+
+      <HeroVideo label={hero.video.label} src={hero.video.src} />
+
+      <div className="hero__videoCta">
+        <CtaButton
+          href={hero.video.cta.href}
+          size="sm"
+          variant={hero.video.cta.variant}
+          location="video"
+        >
+          {hero.video.cta.label}
+        </CtaButton>
+      </div>
 
       <figure className="hero__diagram">
         <img

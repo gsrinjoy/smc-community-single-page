@@ -1,18 +1,12 @@
 .hero {
-  padding-top: clamp(62px, 13vw, 92px);
+  padding-top: clamp(28px, 7vw, 44px);
   text-align: center;
-}
-
-.hero__emoji {
-  display: block;
-  font-size: clamp(56px, 15vw, 76px);
-  line-height: 1;
 }
 
 .hero__headline {
   display: flex;
   flex-direction: column;
-  margin-top: clamp(22px, 6vw, 32px);
+  margin-top: 0;
   font-family: var(--display);
   font-weight: 400;
   font-size: clamp(44px, 12.5vw, 72px);
@@ -35,6 +29,10 @@
 
 .hero__cta {
   margin: 34px 0 22px;
+}
+
+.hero__videoCta {
+  margin-top: 18px;
 }
 
 /* The artwork has its own white field, so it gets the same white-plaque

@@ -7,8 +7,7 @@ export const brand = {
 }
 
 export const hero = {
-  emoji: '👋',
-  headline: ['LEARN SMART', 'MONEY CONCEPTS'],
+  headline: ['TRADE LIKE', 'THE BANKS'],
   // `bold: true` renders the segment in the heavy ink weight, like the reference.
   subhead: [
     { text: 'Understand what institutions actually do on a chart — ' },
@@ -19,13 +18,13 @@ export const hero = {
   ],
   cta: {
     label: 'Join the community',
-    href: 'https://t.me/smcindiaofficial',
+    href: 'https://t.me/+4exHXedPzJRkZmY9',
     variant: 'telegram',
   },
   rating: {
     value: 4.7,
     outOf: 5,
-    label: '(800+ Traders Trained)',
+    label: '(9000+ Members)',
   },
   strip: 'Covered weekly: Nifty · Bank Nifty · SMC · ICT · Market structure · Liquidity',
   diagram: {
@@ -33,10 +32,14 @@ export const hero = {
     alt:
       'Retail versus SMC entry compared. Retail buys the trendline with a stop just under it — low reward, high risk because that stop is the liquidity. SMC waits for the equal lows to be swept, then enters from the imbalance for a far higher reward and lower risk.',
   },
-  funFact: {
-    label: 'Ohh !! by the way',
-    body:
-      'Nearly 30,000 traders follow along across Instagram and Telegram. Post your markup in the group and it gets reviewed.',
+  video: {
+    label: 'DONT MISS THIS !!',
+    src: '/video.MP4',
+    cta: {
+      label: 'Join the community',
+      href: 'https://t.me/+4exHXedPzJRkZmY9',
+      variant: 'telegram',
+    },
   },
 }
 
@@ -53,7 +56,7 @@ export const inside = {
   ctaKicker: 'Trade like the Banks',
   cta: {
     label: 'Join the community',
-    href: 'https://t.me/smcindiaofficial',
+    href: 'https://t.me/+4exHXedPzJRkZmY9',
     variant: 'telegram',
   },
 }
